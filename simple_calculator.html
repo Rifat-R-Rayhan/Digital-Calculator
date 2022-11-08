@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="simple_calculator.css">
+</head>
+
+<body>
+
+    <form action="calculator">
+
+        <input type="text" name="screen" id="screen" disabled>
+        <hr>
+        <input class="cursor_pointer" type="button" value="&radic;" onclick="sRoot()">
+        <input class="cursor_pointer" type="button" value="CE" onclick="clean()">
+        <input class="cursor_pointer" type="button" value="C" onclick="C()">
+        <input class="cursor_pointer" type="button" value="&larr;" onclick="remove()"><br>
+
+        <input class="cursor_pointer" type="button" value="sin" onclick="SIN()">
+        <input class="cursor_pointer" type="button" value="cos" onclick="COS()">
+        <input class="cursor_pointer" type="button" value="tan" onclick="TAN()">
+        <input class="cursor_pointer" type="button" value="^" onclick="Square()"><br>
+
+        <input class="cursor_pointer" type="button" value="7" onclick="number7()">
+        <input class="cursor_pointer" type="button" value="8" onclick="number8()">
+        <input class="cursor_pointer" type="button" value="9" onclick="number9()">
+        <input class="cursor_pointer" type="button" value="+" onclick="numberAdd()"><br>
+
+        <input class="cursor_pointer" type="button" value="4" onclick="number4()">
+        <input class="cursor_pointer" type="button" value="5" onclick="number5()">
+        <input class="cursor_pointer" type="button" value="6" onclick="number6()">
+        <input class="cursor_pointer" type="button" value="-" onclick="numberSubs()"><br>
+
+        <input class="cursor_pointer" type="button" value="1" onclick="number1()">
+        <input class="cursor_pointer" type="button" value="2" onclick="number2()">
+        <input class="cursor_pointer" type="button" value="3" onclick="number3()">
+        <input class="cursor_pointer" type="button" value="*" onclick="numberMulti()"><br>
+
+        <input class="cursor_pointer" type="button" value="0" onclick="number0()">
+        <input class="cursor_pointer" type="button" value="." onclick="numberDot()">
+        <input class="cursor_pointer" type="button" value="=" onclick="numberEqual()">
+        <input class="cursor_pointer" type="button" value="/" onclick="numberDiv()"><br>
+
+        <button> <a href="http://www.facebook.com/rifatrayhan2001" target="_blank">Rifat R Rayhan</a> </button>
+
+    </form>
+    <script src="simple_calculator.js"></script>
+</body>
+
+</html>
